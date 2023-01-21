@@ -1,4 +1,5 @@
 //Merge sort
+//Check 
 const valueRan: number[] = [];
 for (let i = 0; i < 5; i++) {
   valueRan.push(Math.floor(Math.random() * 100));
