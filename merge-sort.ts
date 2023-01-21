@@ -1,5 +1,5 @@
 //Merge sort
-// Check get public
+// Check get public again
 const valueRan: number[] = [];
 for (let i = 0; i < 5; i++) {
   valueRan.push(Math.floor(Math.random() * 100));
