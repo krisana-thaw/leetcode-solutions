@@ -1,5 +1,5 @@
 function climbStairs(n: number): number {
-    var fibArr = new Array(n+1);
+    let fibArr = new Array(n+1);
     fibArr[0] = 0;
     fibArr[1] = 1;
 
