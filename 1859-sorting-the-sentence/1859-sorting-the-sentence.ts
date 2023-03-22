@@ -8,7 +8,7 @@ function sortSentence(s: string): string {
         map.set((Number(index)-1), sentence);
     }
     
-    const result = [...map].sort((a,b) => a[0] - b[0]).map((exemple, index, array) => exemple[1]).join(' ');
+    const result = [...map].sort((a,b) => a[0] - b[0]).map((arr) => arr[1]).join(' ');
     return result;
 };
 
