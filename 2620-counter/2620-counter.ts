@@ -1,5 +1,5 @@
 function createCounter(n: number): () => number {
-    return function() {
+    return function(): number {
         return n++;
     };
 }
